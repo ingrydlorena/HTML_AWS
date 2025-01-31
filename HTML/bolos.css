@@ -1,0 +1,128 @@
+@font-face {
+    font-family: WellCake;
+    src: url(Fontes/WellCake.ttf) format('truetype');
+}
+
+body {
+    font-family: WellCake;
+    background-color: #88CCF1;
+}
+
+#container-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#caixa-de-texto {
+    display: flexbox;
+    flex-direction: column;
+    position: relative;
+    justify-content: flex-start;
+    padding: 20px;
+
+
+    margin: 50px;
+    border-radius: 12%;
+    background-color: white;
+    width: 520px;
+    height: 600px;
+
+}
+
+#container-peca-o-seu {
+    position: absolute;   /* Faz com que a caixa menor sobreponha a caixa maior */
+    background-color:#FFD166; /* Fundo semi-transparente */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 17px; 
+    transform: translateX(-50%);
+    bottom: 20px;
+    left: 50%
+}
+
+#moca {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto-principal {
+    display: inline-block;
+    color: #FFC1CF;
+    text-align: center;
+    font-size: 125px;
+    line-height: 90px;
+}
+
+#melhores {
+    color: #725AC1;
+}
+
+#imagem-principal {
+    width: auto;
+    height: 700px;
+    align-items: baseline;
+}
+
+#texto-secundario {
+    color: #FFC1CF;
+    text-align: center;
+    font-size: 70px; 
+}
+
+#pessoa {
+    color: #725AC1;
+
+}
+
+#whatsapp{
+    color: #88CCF1;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+#whatsapp :hover{
+    color: #99D19C;
+    text-decoration: none
+}
+
+#whatsapp :visited{
+    color: #88CCF1;
+    text-decoration: none;
+}
+
+.comida {
+    height: 168px;
+    width: 148px;
+    border-radius: 23%; 
+}
+
+.contem {
+    color: #FFD166;
+    font-size: 20px;
+}
+
+.avisos {
+    height: 50px;
+    width: auto;
+}
+
+.saiba-mais {
+    color: #88CCF1;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.saiba-mais :hover{
+    color: #99D19C;
+    text-decoration: none
+}
+
+.saiba-mais :visited {
+    color: #88CCF1;
+    text-decoration: none;   
+}
