@@ -1,17 +1,25 @@
 @font-face {
     font-family: WellCake;
-    src: url(Fontes/WellCake.ttf) format('truetype');
+    src: url(Fontes/WellCake.ttf) format('truetype')!important;
 }
 
 body {
-    font-family: WellCake;
-    background-color: #88CCF1;
+    font-family: WellCake !important;
+    background-color: #88CCF1 !important;
 }
 
 #container-principal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    
+}
+.navbar{
+    background-color: #88CCF1 !important;
+}
+.card-img-top {
+    height: 500px; /* Ajuste conforme necessário */
+    object-fit: cover; /* Mantém a proporção e preenche o espaço */
 }
 
 #caixa-de-texto {
@@ -25,7 +33,7 @@ body {
     margin: 50px;
     border-radius: 12%;
     background-color: white;
-    width: 520px;
+    width: 520vw;
     height: 600px;
 
 }
@@ -43,6 +51,7 @@ body {
 
 #moca {
     display: flex;
+    
     margin: 50px;
     align-items: center;
     justify-content: center;
@@ -96,8 +105,8 @@ body {
 }
 
 .comida {
-    height: 168px;
-    width: 148px;
+     height: 168px;
+    width: 148px; 
     border-radius: 23%; 
 }
 
@@ -106,6 +115,24 @@ body {
     font-size: 20px;
 }
 
+.footer {
+    display: flex ;
+    flex-direction: column ; 
+    justify-content: center ; 
+    align-items: center ;
+    position: relative ;
+    padding: 20px 0 ; 
+  }
+  
+  .linhaFooter {
+    border-top: 1px solid rgb(0, 119, 255);
+    width: 100% ; 
+    margin-top: 10px; 
+  }
+  .contato{
+    font-size: 20px;
+  }
+  
 .avisos {
     height: 50px;
     width: auto;
