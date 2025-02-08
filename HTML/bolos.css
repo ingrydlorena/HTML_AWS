@@ -15,6 +15,7 @@ body {
     
 }
 .navbar{
+    font-family: WellCake !important;
     background-color: #88CCF1 !important;
 }
 .card-img-top {
@@ -116,6 +117,7 @@ body {
 }
 
 .footer {
+    color:#725AC1;
     display: flex ;
     flex-direction: column ; 
     justify-content: center ; 
