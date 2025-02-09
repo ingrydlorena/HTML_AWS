@@ -1,6 +1,6 @@
 @font-face {
     font-family: WellCake;
-    src: url(Fontes/WellCake.ttf) format('truetype')!important;
+    src: url(Fontes/WellCake.ttf) format('truetype');
 }
 
 body {
@@ -52,10 +52,12 @@ body {
 
 #moca {
     display: flex;
-    
-    margin: 50px;
+    margin-bottom: 100px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    right: 10px;
+    top: -13px;
 }
 
 #texto-principal {
@@ -71,8 +73,7 @@ body {
 }
 
 #imagem-principal {
-    width: auto;
-    height: 700px;
+    height: 727px;
     align-items: baseline;
 }
 
