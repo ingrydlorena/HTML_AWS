@@ -9,46 +9,54 @@ body {
 }
 
 #container-principal {
-    display: flex ;
-    align-items: center ;
-    justify-content: center ;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
     
 }
+
 .navbar{
     font-family: WellCake !important;
     background-color: #88CCF1 !important;
 }
+
 .card-img-top {
-    height: 500px; /* Ajuste conforme necessário */
-    object-fit: cover; /* Mantém a proporção e preenche o espaço */
+    height: 500px; 
+    object-fit: cover;
 }
 
 #caixa-de-texto {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
-    position: relative;
-    justify-content: flex-start;
-    padding: 20px;
-
-
+    align-items: center;
+    padding: 30px;
     margin: 50px;
     border-radius: 12%;
     background-color: white;
-    width: 520vw;
+    width: 50vw;
     height: 600px;
-
+    bottom: 180px;
 }
 
 #container-peca-o-seu {
-    position: absolute;   /* Faz com que a caixa menor sobreponha a caixa maior */
-    background-color:#FFD166; /* Fundo semi-transparente */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 20px;  
+
+    align-self: flex-end; 
+    position: absolute;   
+    background-color:#FFD166; 
     padding: 10px;
     margin: 10px;
     border-radius: 17px; 
     transform: translateX(-50%);
-    bottom: 20px;
-    left: 50%
+    bottom: 90px;
+    left: 27%
 }
+
 
 #moca {
     display: flex;
@@ -58,6 +66,8 @@ body {
     position: relative;
     right: 10px;
     top: -13px;
+    border-radius: 23%;
+    
 }
 
 #texto-principal {
@@ -83,10 +93,6 @@ body {
     font-size: 70px; 
 }
 
-#pessoa {
-    color: #725AC1;
-
-}
 
 #whatsapp{
     color: #88CCF1;
@@ -107,7 +113,7 @@ body {
 }
 
 .comida {
-     height: 168px;
+    height: 168px;
     width: 148px; 
     border-radius: 23%; 
 }
@@ -156,3 +162,12 @@ body {
     color: #88CCF1;
     text-decoration: none;   
 }
+
+.navbar-nav .nav-link {
+    color: #725AC1 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD166 !important; 
+}
+

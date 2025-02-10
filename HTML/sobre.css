@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Mont;
+    src: url(Fontes/Montserrat-VariableFont_wght.ttf) format('truetype');
+    font-family: WellCake;
+    src: url(Fontes/WellCake.ttf) format('truetype');
+}
+
+body {
+    font-family: Mont !important;
+    background-color: #88CCF1 !important;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 50px;
+}
+#sobrenos-titulo {
+    color: #725AC1;
+    font-size: 60px;
+    font-family: WellCake;
+
+}
+
+#imagem-ingryd {
+    height: 168px;
+    width: 148px; 
+    border-radius: 25px;
+}
+#imagem-maria {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
+#imagem-jackson {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
+#imagem-thauan {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
+#imagem-silva {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
+#imagem-janaina {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
+#imagem-damasco {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
+
+#container-total {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    row-gap: 10px;
+    column-gap: 5px;
+}
+#conteiner-ingryd {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+    
+}
+#conteiner-thauan {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+}
+#conteiner-silva {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+}
+#conteiner-janaina {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+}
+#conteiner-maria {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+}
+#conteiner-jackson {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+}
+#conteiner-damasco {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 20px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+}
+
+.link {
+    color: #725AC1;
+    text-decoration: none;
+}
+
+.link :hover{
+    color: #FFD166;
+    text-decoration: none;
+}
+.link :visited{
+    color: #725AC1;
+    text-decoration: none;
+}
