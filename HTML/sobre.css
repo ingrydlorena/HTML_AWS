@@ -55,18 +55,23 @@ body {
     width: 148px;
     border-radius: 25px;
 }
+#imagem-thamires {
+    height: 168px;
+    width: 148px;
+    border-radius: 25px;
+}
 
 #container-total {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    row-gap: 10px;
+    grid-template-columns: repeat(2, 2fr);
+    row-gap: 40px;
     column-gap: 5px;
 }
 #conteiner-ingryd {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
@@ -76,7 +81,7 @@ body {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
@@ -85,7 +90,7 @@ body {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
@@ -94,7 +99,7 @@ body {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
@@ -103,7 +108,7 @@ body {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
@@ -112,7 +117,7 @@ body {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
@@ -121,22 +126,39 @@ body {
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: aliceblue;
     height: 28vw;
     width: 24vw;
 }
-
-.link {
-    color: #725AC1;
-    text-decoration: none;
+#conteiner-thamires {
+    text-align: center;
+    padding: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 30px;
+    background-color: aliceblue;
+    height: 28vw;
+    width: 24vw;
+    
 }
 
-.link :hover{
+.link{
+    color: #725AC1;
+    text-decoration: none;
+    font-family: Mont;
+}
+
+.link:hover{
     color: #FFD166;
     text-decoration: none;
+    
 }
-.link :visited{
+.link:visited{
     color: #725AC1;
     text-decoration: none;
+    
+}
+.nome-titulo {
+    font-size: 50px;
+    color: #725AC1;
 }
