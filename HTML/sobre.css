@@ -1,13 +1,15 @@
 @font-face {
     font-family: Mont;
     src: url(Fontes/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
     font-family: WellCake;
     src: url(Fontes/WellCake.ttf) format('truetype');
 }
 
 body {
-    font-family: Mont !important;
-    background-color: #88CCF1 !important;
+    font-family: Mont ;
+    background-color: #88CCF1 ;
     padding: 20px;
     box-sizing: border-box;
     height: 100vh;
@@ -17,7 +19,24 @@ body {
     color: #725AC1;
     font-size: 60px;
     font-family: WellCake;
+    
+}
+.link {
+    color: #725AC1;
+    text-decoration: none;
+    font-family: Mont;
 
+}
+
+.link:hover{
+    color: #FFD166 !important;
+    text-decoration: none;
+    
+}
+.link:visited{
+    color: #725AC1;
+    text-decoration: none;
+    
 }
 
 #imagem-ingryd {
@@ -63,83 +82,24 @@ body {
 
 #container-total {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 40px;
     column-gap: 5px;
 }
-#conteiner-ingryd {
+
+#conteiner-ingryd, #conteiner-silva, #conteiner-thauan, #conteiner-janaina, 
+#conteiner-jackson, #conteiner-maria, #conteiner-damasco, #conteiner-thamires {
+    width: 300px;
     text-align: center;
     padding: 15px;
     grid-template-rows: repeat(3, 1fr);
     border-radius: 30px;
     background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-    
-}
-#conteiner-thauan {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-}
-#conteiner-silva {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-}
-#conteiner-janaina {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-}
-#conteiner-maria {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-}
-#conteiner-jackson {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-}
-#conteiner-damasco {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-}
-#conteiner-thamires {
-    text-align: center;
-    padding: 15px;
-    grid-template-rows: repeat(3, 1fr);
-    border-radius: 30px;
-    background-color: aliceblue;
-    height: 28vw;
-    width: 24vw;
-    
+    height: 350px; 
 }
 
 
+.nome-titulo {
+    font-size: 20px;
+    color: #725AC1;
+}
