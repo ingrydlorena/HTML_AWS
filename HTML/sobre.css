@@ -142,23 +142,4 @@ body {
     
 }
 
-.link{
-    color: #725AC1;
-    text-decoration: none;
-    font-family: Mont;
-}
 
-.link:hover{
-    color: #FFD166;
-    text-decoration: none;
-    
-}
-.link:visited{
-    color: #725AC1;
-    text-decoration: none;
-    
-}
-.nome-titulo {
-    font-size: 50px;
-    color: #725AC1;
-}
