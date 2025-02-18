@@ -6,166 +6,13 @@
 body {
     font-family: WellCake !important;
     background-color: #88CCF1 !important;
+    margin: 0;
+    padding: 0;
 }
 
-#container-principal {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;  
-    justify-content: center;  
-    height: 100vh;  
-    
-}
-
-.navbar{
-    font-family: WellCake !important;
+.navbar {
     font-size: 25px;
     background-color: #88CCF1 !important;
-}
-
-.card-img-top {
-    height: 500px; 
-    object-fit: cover;
-}
-
-#caixa-de-texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    justify-content: center;
-    margin: 50px;
-    border-radius: 12%;
-    background-color: white;
-    width: 800px;
-    height: 600px;
-    bottom: 180px;
-}
-
-#container-peca-o-seu {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;  
-    margin-bottom: 20px;  
-
-    align-self: flex-end; 
-    position: absolute;   
-    background-color:#FFD166; 
-    padding: 10px;
-    margin: 10px;
-    border-radius: 17px; 
-    transform: translateX(-50%);
-    bottom: 90px;
-    left: 35%
-    
-}
-
-
-#moca {
-    display: flex;
-    margin-bottom: 100px;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 10px;
-    top: -13px;
-    border-radius: 23%;
-    
-}
-
-#texto-principal {
-    display: inline-block;
-    color: #FFC1CF;
-    text-align: center;
-    font-size: 125px;
-    line-height: 90px;
-}
-
-#melhores {
-    color: #725AC1;
-}
-
-#imagem-principal {
-    height: 727px;
-    align-items: baseline;
-}
-
-#texto-secundario {
-    color: #FFC1CF;
-    text-align: center;
-    font-size: 70px; 
-}
-
-
-.whatsapp {
-    color: #725AC1;
-    font-size: 30px;
-    text-decoration: none;
-    text-align: center;
-    
-}
-
-.whatsapp a:hover{
-    color: #99D19C;
-    text-decoration: none;
-}
-
-.whatsapp a:visited{
-    color: #725AC1;
-    text-decoration: none;
-}
-
-.comida {
-    height: 168px;
-    width: 148px; 
-    border-radius: 23%; 
-}
-
-.contem {
-    color: #FFD166;
-    font-size: 20px;
-}
-
-.footer {
-    color:#725AC1;
-    display: flex ;
-    flex-direction: column ; 
-    justify-content: center ; 
-    align-items: center ;
-    position: relative ;
-    padding: 20px 0 ; 
-  }
-  
-  .linhaFooter {
-    border-top: 1px solid rgb(0, 119, 255);
-    width: 100% ; 
-    margin-top: 10px; 
-  }
-
-  .contato{
-    font-size: 20px;
-  }
-  
-.avisos {
-    height: 50px;
-    width: auto;
-}
-
-.saiba-mais {
-    color: #88CCF1;
-    font-size: 50px;
-    text-decoration: none;
-    
-}
-
-.saiba-mais :hover{
-    color: #99D19C;
-    text-decoration: none
-}
-
-.saiba-mais :visited {
-    color: #88CCF1;
-    text-decoration: none;   
 }
 
 .navbar-nav .nav-link {
@@ -176,3 +23,125 @@ body {
     color: #FFD166 !important; 
 }
 
+/* Container principal alinhado ao centro */
+#container-principal {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;  
+    justify-content: center;  
+    height: 90vh;
+}
+
+/* Caixa de texto reduzida */
+#caixa-de-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 12%;
+    background-color: white;
+    width: 600px; /* Reduzindo tamanho */
+    height: 400px;
+}
+
+/* Texto principal menor */
+#texto-principal {
+    color: #FFC1CF;
+    text-align: center;
+    font-size: 80px; /* Reduzindo tamanho */
+    line-height: 70px;
+}
+
+/* Destaque "melhores" */
+#melhores {
+    color: #725AC1;
+}
+
+/* Botão de pedido */
+#container-peca-o-seu {
+    background-color: #FFD166; 
+    padding: 12px 25px;
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.whatsapp {
+    color: #725AC1;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.whatsapp:hover {
+    color: #99D19C;
+}
+
+/* Imagem principal menor */
+#moca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 100px 5px;
+}
+
+#imagem-principal {
+    height: 500px; /* Reduzindo tamanho */
+}
+
+/* Texto secundário */
+#texto-secundario {
+    color: #FFC1CF;
+    text-align: center;
+    font-size: 50px; 
+    margin-top: 30px;
+}
+
+/* Cards dos produtos */
+.card-img-top {
+    height: 350px; /* Diminuindo tamanho */
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Rodapé */
+.footer {
+    color: #725AC1;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.linhaFooter {
+    border-top: 1px solid rgb(0, 119, 255);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contato {
+    font-size: 18px;
+}
+
+/* Ícones de aviso */
+.avisos {
+    height: 40px;
+}
+
+/* Estilização geral */
+.saiba-mais {
+    color: #88CCF1;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.saiba-mais:hover {
+    color: #99D19C;
+}

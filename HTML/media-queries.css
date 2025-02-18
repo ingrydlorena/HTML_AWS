@@ -1,0 +1,74 @@
+/* Para smartphones grandes */
+@media (max-width: 768px) {
+    .navbar {
+        font-size: 20px;
+    }
+
+    #texto-principal {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    #caixa-de-texto {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #imagem-principal {
+        height: 300px;
+    }
+
+    #texto-secundario {
+        font-size: 30px;
+    }
+
+    .card-img-top {
+        height: 250px;
+    }
+
+    #container-peca-o-seu {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+/* Para smartphones pequenos*/
+@media (max-width: 480px) {
+    .navbar {
+        font-size: 18px;
+    }
+
+    #texto-principal {
+        font-size: 40px;
+        line-height: 35px;
+    }
+
+    #caixa-de-texto {
+        width: 95%;
+        padding: 8px;
+    }
+
+    #imagem-principal {
+        height: 250px;
+    }
+
+    #texto-secundario {
+        font-size: 25px;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    .whatsapp {
+        font-size: 20px;
+    }
+
+    .saiba-mais {
+        font-size: 24px;
+    }
+
+    .contato {
+        font-size: 16px;
+    }
+}
